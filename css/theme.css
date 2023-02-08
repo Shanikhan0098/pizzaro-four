@@ -358,6 +358,7 @@
 .price {
     display: flex;
     align-items: center;
+    margin-left: 5px;
 }
 .price h5 {
     margin-bottom: 0
@@ -368,7 +369,9 @@
     border-radius: 50px;
     align-items: center;
     color: white;
+    margin-left: 5px;
 }
+
 /* two-pizza */
 .two-pizza-one img {
     width: 150px;
@@ -427,9 +430,10 @@
     list-style: none;
     margin: 0 12px;
 }
+.tab-pane{text-align: center;}
 .discription .active {
     border-radius: 0%;
-    background-color: #8ca93d;
+    background-color: rgba(208, 208, 208, 0.975);
 }
 .discription ul li a {
     text-decoration: none;
@@ -503,6 +507,7 @@
 .Goes-with-great h4 {
     text-align: center;
 }
+.glass-service p{margin-bottom: 0;}
 .glass-service img {
     width: 100%;
 }
@@ -513,6 +518,7 @@
     display: flex;
     justify-content: center;
     margin-bottom: 0;
+    padding-left: 0;
 }
 .glass-service ul li {
     list-style: none;
@@ -531,7 +537,7 @@
     height: 2px;
     content: '';
     display: block;
-    background-color: var(--graay);
+    background-color: rgba(228, 225, 222, 1);
     top: 50%;
     right: 18%;
 }
@@ -541,7 +547,7 @@
     height: 2px;
     content: '';
     display: block;
-    background-color: var(--graay);
+    background-color:rgba(228, 225, 222, 1);
     top: 50%;
     left: 18%;
 }
@@ -655,7 +661,7 @@
 }
 
 /* G C */
-
+.cll{background-color: var(--span-clr);}
 
 .w-40 {
     width: 30px;
@@ -696,7 +702,6 @@
 
 .bg-clr {
     background-color: rgba(208, 208, 208, 0.975);
-    ;
 }
 
 
@@ -740,3 +745,8 @@
         margin-left: 0;
     }
 }
+
+@media (max-width: 400.98px) {
+    .m-remov {margin-left: 5px;}
+    }
+
